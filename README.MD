@@ -1,0 +1,1 @@
+1.First create an emputy Cocos project 
