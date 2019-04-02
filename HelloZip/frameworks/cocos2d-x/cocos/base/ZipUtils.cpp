@@ -609,7 +609,7 @@ bool ZipFile::fileExists(const std::string &fileName) const
     return ret;
 }
 
-unsigned char *ZipFile::getFileData(const std::string &fileName, ssize_t *size)
+unsigned char *ZipFile::getFileData(const std::string &fileName, ssize_t *size ,const char *password)
 {
     unsigned char * buffer = nullptr;
     if (size)

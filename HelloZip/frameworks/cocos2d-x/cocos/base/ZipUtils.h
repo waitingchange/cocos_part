@@ -274,7 +274,7 @@ typedef struct unz_file_info_s unz_file_info;
         *
         * @since v2.0.5
         */
-        unsigned char *getFileData(const std::string &fileName, ssize_t *size);
+        unsigned char *getFileData(const std::string &fileName, ssize_t *size,const char *password = NULL);
 
         std::string getFirstFilename();
         std::string getNextFilename();
